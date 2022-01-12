@@ -49,6 +49,7 @@ At the very least we plan to implement a multiplayer version of the game that ca
 	- I am planning on creating what will essentially be my own data structure that will simulate the checkerboard. (This will be one of the client side .c files)
   
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
 Potential Challenges:
 	
 	- Getting multi-client multiplayer to work
