@@ -13,8 +13,8 @@ We will divide our program into the following:
 
 	- Server Portion:
 		-> Will keep track of who's turn it is and will take in keystrokes from that player to make a move and change the state of the game for all other players.
-    -> Will consist of the following:
-      => server file that decides who's turn it is and allows that client to submit keystrokes to server.
+		-> Will consist of the following:
+			=> server file that decides who's turn it is and allows that client to submit keystrokes to server.
 
 
 	- Client Portion:
