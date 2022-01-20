@@ -56,3 +56,9 @@ Potential Challenges:
 	- Making the gui not get ruined if the user tries to resize the terminal window.
 	- Encrypting the socket connection (so the hackers don't steal our top secret chinese checkers data ;))
 	
+	
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+Online Reading Sources Used:
+
+https://www.redblobgames.com/grids/hexagons/
