@@ -52,7 +52,7 @@ Our group has recreated the classic board game chinese checkers designed to be p
 
 ## HOW WE TRIED TO IMPLEMENT MULTIPLAYER SOCKETS WITH NETCAT:
 
-# On the Server Side:
+### On the Server Side:
  Created two pipes by running:
   mkfifo pipe1 pipe2
  
@@ -68,7 +68,7 @@ This pretty much starts the server side of the process, so to recap:
  
 * game process is also started and it's stdout/stdin are also connected to pipe1 and pipe2
 
-# On the Client Side:
+### On the Client Side:
  
  From a different terminal, or it can be done from a adifferent machine, We run command:
   stty -echo; netcat <b>Local or Remote IP Here</b> 5555; stty echo;
@@ -76,7 +76,7 @@ This pretty much starts the server side of the process, so to recap:
 
 This starts netcat in a client mode and connects to TCP/IP provided with port 5555
 
-# We didnt get to implement this but this is how we were going to
+<b>We didnt get to implement this but this is how we were going to</b>
 
 </br></br>
 <p align="center">Proposal</p>
