@@ -51,6 +51,34 @@ Our group has recreated the classic board game chinese checkers designed to be p
 - https://w3.cs.jmu.edu/kirkpams/OpenCSF/Books/csf/html/index.html
 - https://www.stuycs.org/systems-dw/notes/
 
+## HOW WE TRIED TO IMPLEMENT MULTIPLAYER SOCKETS WITH NETCAT:
+
+# On the Server Side:
+ Created two pipes by running:
+  mkfifo pipe1 pipe2
+ 
+ Started netcat server in the background, and connected it's stdin/stdout to the pipes:
+  netcat -l -p 5555 > pipe1 < pipe2 &
+
+ Then started the game and connected it's stdout/stdin to the pipes:
+  ./play < pipe1 > pipe2
+
+This pretty much starts the server side of the process, so to recap:
+ 
+* 'netcat' is started up in the background listening for the TCP connection on Port 5555 (that's what argumnets -l -p 5555 are doing), and it's stdin/stdout are connected to pipes: pipe1 and pipe2
+ 
+* game process is also started and it's stdout/stdin are also connected to pipe1 and pipe2
+
+# On the Client Side:
+ 
+ From a different terminal, or it can be done from a adifferent machine, We run command:
+  stty -echo; netcat <b>Local or Remote IP Here</b> 5555; stty echo;
+
+
+This starts netcat in a client mode and connects to TCP/IP provided with port 5555
+
+# We didnt get to implement this but this is how we were going to
+
 </br></br>
 <p align="center">Proposal</p>
 
