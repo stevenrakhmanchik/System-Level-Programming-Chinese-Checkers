@@ -79,11 +79,11 @@ This starts netcat in a client mode and connects to TCP/IP provided with port 55
 <b>We didnt get to implement this but this is how we were going to</b>
 
 </br></br>
-<p align="center">Proposal</p>
+# Proposal
 
 ** Below contains our proposal. Note that some features have been omitted (mainly the network connection feature) and others have been added (sound) from our original plans. **
 
-# Technical Design:
+## Technical Design:
 ### Description of Project
 
 We are going to be developing a Chinese checkers game that will be able to function over a network connection with up to 6 players at once. For this, we will use NCurses to make the game function.
