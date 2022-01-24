@@ -23,17 +23,15 @@ Our group has recreated the classic board game chinese checkers designed to be p
 
 4. ** Detailed Instructions on how to navigate the game: ** Feeling unconfident? No  worries, we got you with further instruction.
 
-
   ### Use the up and down arrow to hover your choices. Press enter to select. ###
   * Select to play (umm unless you really don't want to, then press quit)
   * Choose a number of players (2,3,4,6).
   * Name your players! After typing a satisfactory name, please press enter and a color to represent yourself. You will then be prompted to repeat the process until all of your players are named; don't choose the same names or same colors.
   * Game time! Using the arrow keys, navigate the board. The current "hand" is on the highlightest spot, select the piece of your color to move and you will then see possible locations to move your piece to. Make your decision, highlight the spot you want to move your piece to, and then press enter again.
-  * Fight for your life. After the first player goes, the next player will then go. Duke it out with them (or yourself if you are playing alone) and enjoy the sound effects.
-  * # STEVEN PLEASE CONTINUE HERE, DERRICK  DIDNT SHOW ME WHAT HAPPENS WHEN A PLAYER WINS
+  * Fight for your life. After the first player goes, the next player will then go. Duke it out with them (or yourself if you are playing alone) and enjoy the sound effects (implemented using fork() processes which are controlled with signals).
 
 ## Technical Features of Our Programming
-1. Data structure to simulate hexagonal checkers board grid
+1. Data structure to simulate hexagonal checker board grid
 2. Implenting gui using Ncurses
 3. User Interface program to control elements such as position selector
 4. Sound effects (really cool ones)
@@ -45,6 +43,7 @@ Our group has recreated the classic board game chinese checkers designed to be p
 3. Signals
 4. Pipes
 5. Sockets (kind of explained later)
+
 ## Websites Used
 - https://www.redblobgames.com/grids/hexagons/
 - https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/
@@ -90,9 +89,9 @@ This starts netcat in a client mode and connects to TCP/IP provided with port 55
 We are going to be developing a Chinese checkers game that will be able to function over a network connection with up to 6 players at once. For this, we will use NCurses to make the game function.
 
 ### Breakdown of the Project (plan to overall work collaboratively on everything)
-* Steven : hexagonal grid data structure, artistic design, GUI
-* Derrick : ui program and game logic and authenticity of game experience
-* Rayyan : server communication, implementing user input, and GUI
+* Steven : hexagonal grid data structure, GUI, ui program and game logic, server stuff that didnt really work out completely
+* Derrick : GUI and authenticity of game experience, artistic design
+* Rayyan : artistic design, implementing user input, and GUI
 
 We will divide our program into the following:
 
