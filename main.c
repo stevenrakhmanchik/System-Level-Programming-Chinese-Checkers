@@ -23,12 +23,12 @@ void print_image(FILE *fptr);
 #define MAX_LEN 128;
 #define DEF_BOARD_SIDE 5;
 
-#ifdef __linux__
-	char gameover[] = "cat sounds/gameover.mp3 > /dev/dsp";
-	char menu[] = "cat sounds/menu.wav > /dev/dsp";
-	char cursormove[] = "cat sounds/move.wav > /dev/dsp";
-	char next[] = "cat sounds/next.wav > /dev/dsp";
-#endif
+	ifdef __linux__
+	char gameover[] = " ";
+	char menu[] = " ";
+	char cursormove[] = " ";
+	char next[] = " ";
+	endif
 
 #ifdef __APPLE__
 	char gameover[] = "afplay sounds/gameover.mp3";
