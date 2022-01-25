@@ -1,9 +1,9 @@
 # Final Project : Chinese Checkers
 **Created by Steven Rakhmanchik, Derrick Lin, and Rayyan Bhuiyan**
 
-** Period 4 **
+**Period 4**
 
-** Scroll down for proposal information **
+**Scroll down for proposal information**
 
 ## Broad Description of Project
 Our group has recreated the classic board game chinese checkers designed to be played in your terminal. Our game supports 2,3,4, or 6 players total and only Mac or Linux. Who needs mouses, our game is completely controlled by your keyboard and be sure to have your audio on as we have sound effects to add to the experience.
@@ -16,12 +16,12 @@ Our group has recreated the classic board game chinese checkers designed to be p
 
 ## How to play
 
-0.  ** Know how to play chinese checkers first: ** If you dont know how to play watch this really short and simple video [click here please](https://www.youtube.com/watch?v=kVEAfbecmo0&ab_channel=TripleSGames).
-1.  ** Game Setup: ** Please make your terminal full screen. After, please compile and run our program. make -> make run.
-2. ** Go for it!: ** We designed our game to be very user friendly and intuitive, please use your arrow keys and the enter button to navigate through the game. You may now go play if you don't want to read further instruction, you got this, trust yourself. See 4. for further instruction if needed.
-3. ** q to quit!:** When you are ready, press q to quit the program.
+0.  **Know how to play chinese checkers first: ** If you dont know how to play watch this really short and simple video [click here please](https://www.youtube.com/watch?v=kVEAfbecmo0&ab_channel=TripleSGames).
+1.  **Game Setup: ** Please make your terminal full screen. After, please compile and run our program. make -> make run.
+2. **Go for it!: ** We designed our game to be very user friendly and intuitive, please use your arrow keys and the enter button to navigate through the game. You may now go play if you don't want to read further instruction, you got this, trust yourself. See 4. for further instruction if needed.
+3. **q to quit!:** When you are ready, press q to quit the program.
 
-4. ** Detailed Instructions on how to navigate the game: ** Feeling unconfident? No  worries, we got you with further instruction.
+4. **Detailed Instructions on how to navigate the game: ** Feeling unconfident? No  worries, we got you with further instruction.
 
   ### Use the up and down arrow to hover your choices. Press enter to select. ###
   * Select to play (umm unless you really don't want to, then press quit)
@@ -81,7 +81,7 @@ This starts netcat in a client mode and connects to TCP/IP provided with port 55
 </br></br>
 # Proposal
 
-** Below contains our proposal. Note that some features have been omitted (mainly the network connection feature) and others have been added (sound) from our original plans. **
+**Below contains our proposal. Note that some features have been omitted (mainly the network connection feature) and others have been added (sound) from our original plans. **
 
 ## Technical Design:
 ### Description of Project
