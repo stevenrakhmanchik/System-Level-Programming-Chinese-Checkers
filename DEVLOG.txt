@@ -1,0 +1,47 @@
+
+
+1-10-22 9:30 pm : Steven 
+  Started initial proposal
+
+1-11-22 10:00 pm : Steven
+  Submitted initial proposal
+ 
+1-12-22 7:05 pm : Steven, Derrick , Rayyan
+  Created initial files after thinking about how we would implement project.
+  (Initially created for a two player setup)
+  * data_struct.c, game.c, main.c, and text_ui,c
+
+1-13-22 5:02 pm : Steven
+  Began hard coding project. Implemented clearing the shell and setting up the basis for the game. Noticed problems with changing the window size. 
+
+1-13-22 5:30 pm : Rayyan
+  Worked on text_ui.c to implement user controls with the arrow keys to allow them to naviagate menu.
+
+1-14-22 4:05 am : Steven
+
+  Began working on data_struct.c which is the board for the game. Need to further work on (STEVEN STEVEN STEVEN STEVEN)
+
+1-15-22 7:14 pm : Derrick
+  In the main.c file, customized the menu and began implementing colors.
+
+
+
+1-19-22 8:04 pm : Steven
+  Updated README to include the online sources used
+
+1-19-22 3:00 pm: Derrick, Rayyan
+  Expanded code to allow six players.
+  Created 
+
+1-24-22 10:47 am: Steven, Derrick, Rayyan
+  Had trouble with ncurses and sound files on school computers.
+  Fixed the ncurse errors with slight change to makefile to allow it to compile on linux.
+
+1-24-22 00:00 pm: Steven (STEVEN PLEASE CHECK THIS)
+  Changed / removed sound library to be compatible for linux
+
+1-24-22 1:04 am : Rayyan 
+  Edited README file to have the final requirements and use markdown and organized it
+
+1-25-22 1:56 am : Rayyan
+  Edited README because added spaces after * by accident messing up the formatting
