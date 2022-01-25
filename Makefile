@@ -1,5 +1,5 @@
 play:
-	gcc -Wall -lncurses -o play data_struct.c game.c main.c text_ui.c
+	gcc -Wall -o play data_struct.c game.c main.c text_ui.c -lncurses 
 run:
 	./play
 clean:
