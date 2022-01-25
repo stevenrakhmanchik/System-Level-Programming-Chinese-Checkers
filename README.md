@@ -81,7 +81,7 @@ This starts netcat in a client mode and connects to TCP/IP provided with port 55
 </br></br>
 # Proposal
 
-**Below contains our proposal. Note that some features have been omitted (mainly the network connection feature) and others have been added (sound) from our original plans. **
+**Below contains our proposal. Note that some features have been omitted (mainly the network connection feature) and others have been added (sound) from our original plans.**
 
 ## Technical Design:
 ### Description of Project
