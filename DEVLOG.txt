@@ -79,3 +79,5 @@
 1-26-22 10:34 am : Steven, Rayyan , Derrick
   Made changes fix sound not working on linux. Still need to fix the quitting game sound breaking the game. SSh to school computer sound does not work
   
+1-26-22 12:41 pm : Rayyan
+  Trying to fix error where quitting on linux breaks the terminal after playing the quit noise
