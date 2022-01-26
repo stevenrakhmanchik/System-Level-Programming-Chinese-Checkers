@@ -52,14 +52,15 @@
   Added on to the possible path displayer to show where you can go over pieces as well
 
 1-22-21 8:07 pm: Rayyan, Derrick, Steven
-  Added onto project for when the game ends.
+  Added onto project for when the game ends. Brings user back to menu after a win. 
   * Now need to try implementing server with sockets and music
 
 1-23-21 10:44 pm : Steven
   Tried implementing multiplayer server with sockets and pipes. Below is attempted process
     * 'netcat' is started up in the background listening for the TCP connection on Port 5555 (that's what argumnets -l -p 5555 are doing), and it's stdin/stdout are connected to pipes: pipe1 and pipe2
   * game process is also started and it's stdout/stdin are also connected to pipe1 and pipe2
-
+  * multiplayer needs to be further worked on
+  
 1-24-21 9:00 pm : Derrick , Rayyan
   Added sound effects for player movement and menu noises.
   Quitting noise causes terminal to crash
