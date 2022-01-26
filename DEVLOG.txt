@@ -29,8 +29,9 @@
 1-16-22 9:14 pm : Derrick
   Made small addition to prevent players from choosing the same colors. 
 
-1-17-22 9:17 pm : Derrick
-  Began implementing the path displayer to show players where they can move their piece to. Still faulty
+1-17-22 9:17 pm : Derrick, Rayyan
+  Began implementing the path displayer to show players where they can move their piece to. Still faulty.
+  Fixed Hex* get_corner_array and Hex* neighbor.
 
 1-18-22 1:12 pm : Rayyan
   Fixed bug with path displayer that would show the player the wrong spot
