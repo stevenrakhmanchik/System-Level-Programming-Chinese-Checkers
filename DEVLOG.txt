@@ -20,11 +20,13 @@
 
 1-15-22 7:14 pm : Derrick
   In the main.c file, customized the menu and began implementing colors to the menu and overall layout.
+  Expanded code to allow for six players in game.c and data_struct.c
+  There is a different display for 2, 4, and 6 players. 
 
 1-16-22 7:24 pm : Steven
   Used the data struct to start coding the board with players and implementing player movement in text_ui.
 
-1-16-22 9:14 pm : Steven
+1-16-22 9:14 pm : Derrick
   Made small addition to prevent players from choosing the same colors. 
 
 1-17-22 9:17 pm : Derrick
@@ -32,7 +34,6 @@
 
 1-18-22 1:12 pm : Rayyan
   Fixed bug with path displayer that would show the player the wrong spot
-
 
 1-19-22 8:04 pm : Steven
   Updated README to include the online sources used
@@ -42,10 +43,10 @@
   Implemented the map being changed depending on # of players
   Updated menu to make it more clear you cant choose same color
 
-1-20-22 (Steven please specify)
-  Began testing socket features with UI2
+1-20-22 1:32 pm: Steven, Derrick
+  Began trying socket features with UI2
 
-1-21-21 3:04 am: Steven
+1-21-21 3:04 am: Steven, Rayyan
   Implemented going over other pieces
   Added on to the possible path displayer to show where you can go over pieces as well
 
@@ -65,8 +66,8 @@
   Had trouble with ncurses and sound files on school computers.
   Fixed the ncurse errors with slight change to makefile to allow it to compile on linux.
 
-1-24-22 00:00 pm: Steven (STEVEN PLEASE CHECK THIS)
-  Changed / removed sound library to be compatible for Linux
+1-24-22 00:00 pm: Steven, Derrick
+  Changed sound library to be compatible for Linux
 
 1-24-22 1:04 am : Rayyan
   Edited README file to have the final requirements and use markdown and organized it
