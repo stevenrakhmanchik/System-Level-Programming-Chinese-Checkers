@@ -91,4 +91,5 @@ int main(int argc, char* argv[]){
 		free(b);}
 
 ui_terminate(ui);
+system("clear");
 return EXIT_SUCCESS;}
