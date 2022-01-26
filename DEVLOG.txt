@@ -12,7 +12,7 @@
 1-13-22 5:02 pm : Steven, Derrick, Rayyan
   Began coding the project. Implemented clearing the shell and setting up the basis for the game. Noticed problems with changing the window size.
 
-1-13-22 5:30 pm : Rayyan
+1-14-22 5:30 pm : Rayyan
   Worked on text_ui.c to implement user controls with the arrow keys to allow them to naviagate menu.
   Also implemented a cursor so the user can see what option or position they are hovering. 
 1-14-22 4:05 am : Rayyan
