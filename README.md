@@ -13,6 +13,8 @@ Our group has recreated the classic board game chinese checkers designed to be p
   * To install : sudo apt-get install libncurses5-dev libncursesw5-dev
 * ON MAC: afplay
   * To install : brew install afplay
+* ON LINUX: aplay
+  * To install : sudo apt-get install alsa-utils
 
 ## How to play
 
