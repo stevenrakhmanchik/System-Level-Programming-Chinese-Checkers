@@ -75,3 +75,7 @@
 
 1-25-22 1:56 am : Rayyan
   Edited README because added a space after ** by accident messing up the formatting
+
+1-26-22 10:34 am : Steven, Rayyan , Derrick
+  Made changes fix sound not working on linux. Still need to fix the quitting game sound breaking the game. SSh to school computer sound does not work
+  
