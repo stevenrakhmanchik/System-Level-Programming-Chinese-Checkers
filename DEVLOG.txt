@@ -1,6 +1,4 @@
-
-
-1-10-22 9:30 pm : Steven 
+1-10-22 9:30 pm : Steven, Derrick
   Started initial proposal
 
 1-11-22 10:00 pm : Steven
@@ -9,39 +7,62 @@
 1-12-22 7:05 pm : Steven, Derrick , Rayyan
   Created initial files after thinking about how we would implement project.
   (Initially created for a two player setup)
-  * data_struct.c, game.c, main.c, and text_ui,c
+  * data_struct.c, game.c, main.c, and text_ui,
 
-1-13-22 5:02 pm : Steven
-  Began hard coding project. Implemented clearing the shell and setting up the basis for the game. Noticed problems with changing the window size. 
+1-13-22 5:02 pm : Steven, Derrick, Rayyan
+  Began coding the project. Implemented clearing the shell and setting up the basis for the game. Noticed problems with changing the window size.
 
 1-13-22 5:30 pm : Rayyan
   Worked on text_ui.c to implement user controls with the arrow keys to allow them to naviagate menu.
 
-1-14-22 4:05 am : Steven
-
-  Began working on data_struct.c which is the board for the game. Need to further work on (STEVEN STEVEN STEVEN STEVEN)
+1-14-22 4:05 am : Rayyan
+  Began working on data_struct.c which is the board for the game. 
 
 1-15-22 7:14 pm : Derrick
-  In the main.c file, customized the menu and began implementing colors.
+  In the main.c file, customized the menu and began implementing colors to the menu and overall layout.
 
+1-16-22 7:24 pm : Steven
+  Used the data struct to start coding the board with players and implementing player movement in text_ui.
+
+1-16-22 9:14 pm : Steven
+  Made small addition to prevent players from choosing the same colors. 
+
+1-17-22 9:17 pm : Derrick
+  Began implementing the path displayer to show players where they can move their piece to. Still faulty
+
+1-18-22 1:12 pm : Rayyan
+  Fixed bug with path displayer that would show the player the wrong spot
 
 
 1-19-22 8:04 pm : Steven
   Updated README to include the online sources used
 
 1-19-22 3:00 pm: Derrick, Rayyan
-  Expanded code to allow six players.
-  Created 
+  Expanded code to allow six players to pick their color and name themselves
+  Implemented the map being changed depending on # of players
+  Updated menu to make it more clear you cant choose same color
+
+1-20-22 (Steven please specify)
+  Began testing socket features with UI2
+
+1-21-21 3:04 am: Steven
+  Implemented going over other pieces
+  Added on to the possible path displayer to show where you can go over pieces as well
+
+1-22-21 8:07 pm: Rayyan, Derrick, Steven
+  Added onto project for when the game ends.
+  * Now need to try implementing server with sockets and music
+
 
 1-24-22 10:47 am: Steven, Derrick, Rayyan
   Had trouble with ncurses and sound files on school computers.
   Fixed the ncurse errors with slight change to makefile to allow it to compile on linux.
 
 1-24-22 00:00 pm: Steven (STEVEN PLEASE CHECK THIS)
-  Changed / removed sound library to be compatible for linux
+  Changed / removed sound library to be compatible for Linux
 
-1-24-22 1:04 am : Rayyan 
+1-24-22 1:04 am : Rayyan
   Edited README file to have the final requirements and use markdown and organized it
 
 1-25-22 1:56 am : Rayyan
-  Edited README because added spaces after * by accident messing up the formatting
+  Edited README because added a space after ** by accident messing up the formatting
