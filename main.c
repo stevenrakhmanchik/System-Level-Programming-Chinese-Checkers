@@ -24,14 +24,14 @@ void print_image(FILE *fptr);
 #define DEF_BOARD_SIDE 5;
 
 #ifdef __linux__
-	char gameover[] = "aplay -q sounds/gameover.mp3";
+	char gameover[] = "aplay -q sounds/gameover.wav";
 	char menu[] = "aplay -q sounds/menu.wav";
 	char cursormove[] = "aplay -q sounds/move.wav";
 	char next[] = "aplay -q sounds/next.wav";
 #endif
 
 #ifdef __APPLE__
-	char gameover[] = "afplay sounds/gameover.mp3";
+	char gameover[] = "afplay sounds/gameover.wav";
 	char menu[] = "afplay sounds/menu.wav";
 	char cursormove[] = "afplay sounds/move.wav";
 	char next[] = "afplay sounds/next.wav";
