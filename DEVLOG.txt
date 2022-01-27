@@ -72,7 +72,7 @@
   Added sound effects for player movement and menu noises.
   Quitting noise causes terminal to crash.
   
-1-24-22 10:47 am: Steven, Derrick, Rayyan
+1-24-22 10:47 am : Steven, Derrick, Rayyan
   First practice run on school computers.
   Had trouble with ncurses and sound files on school computers.
   Fixed the ncurse errors with slight change to makefile to allow it to compile on linux.
@@ -96,5 +96,8 @@
 1-26-22 12:41 pm : Steven
   Trying to fix error where quitting on linux breaks the terminal after playing the quit noise
 
-1-26-22 00:00 pm: Steven, Derrick, Rayyan
+1-26-22 1:07 pm : Steven, Derrick, Rayyan
   Final test run. Everything works except when quitting the game after starting, the program breaks the terminal. 
+  
+1-27-22 2:56 am : Rayyan
+  Minor edits to the readme
