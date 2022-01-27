@@ -97,4 +97,4 @@
   Trying to fix error where quitting on linux breaks the terminal after playing the quit noise
 
 1-26-22 00:00 pm: Steven, Derrick, Rayyan
-  Final test run. Everything works
+  Final test run. Everything works except when quitting the game after starting, the program breaks the terminal. 
