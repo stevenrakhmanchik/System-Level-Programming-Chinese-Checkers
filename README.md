@@ -47,7 +47,7 @@ Our group has recreated the classic board game chinese checkers designed to be p
 5. Sockets (kind of explained later)
 
 ## Bugs
-* When you press q while in the middle of the game to exit the game, the terminal gets messed up after the quitting game noise players. 
+* When you press q while in the middle of the game to exit the game, the terminal gets messed up after the quitting game noise plays. 
 
 ## Websites Used
 - https://www.redblobgames.com/grids/hexagons/
