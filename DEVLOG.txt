@@ -15,13 +15,14 @@
 1-14-22 5:30 pm : Rayyan
   Worked on text_ui.c to implement user controls with the arrow keys to allow them to naviagate menu.
   Also implemented a cursor so the user can see what option or position they are hovering. 
+  
 1-14-22 4:05 am : Rayyan
-  Began working on data_struct.c which is the board for the game. 
+  Began working on data_struct.c, the board for the game. 
 
 1-15-22 7:14 pm : Derrick
   In the main.c file, customized the menu and began implementing colors to the menu and overall layout.
   Expanded code to allow for six players in game.c and data_struct.c
-  There is a different display for 2, 4, and 6 players. 
+  Different display for 2, 4, and 6 players. 
 
 1-16-22 7:24 pm : Steven
   Used the data struct to start coding the board with players and implementing player movement in text_ui.
@@ -31,25 +32,31 @@
 
 1-17-22 9:17 pm : Derrick, Rayyan
   Began implementing the path displayer to show players where they can move their piece to. Still faulty.
-  Fixed Hex* get_corner_array and Hex* neighbor.
+  Fixed and added to Hex* get_corner_array and Hex* neighbor.
+
+1-18-22 10:28 pm: Derrick, Rayyan
+  Tried running the game.
+  Noticed errors with board display, quitting the game, and game over.
 
 1-18-22 1:12 pm : Rayyan
-  Fixed bug with path displayer that would show the player the wrong spot
+  Fixed bug with path displayer that would show the player the wrong spot.
+  Fixed Hex move_cursor in order to allow players the move to available spots across the board.
 
 1-19-22 8:04 pm : Steven
   Updated README to include the online sources used
 
 1-19-22 3:00 pm: Derrick, Rayyan
   Expanded code to allow six players to pick their color and name themselves
-  Implemented the map being changed depending on # of players
-  Updated menu to make it more clear you cant choose same color
+  Implemented the map being changed depending on # of players.
+  Updated menu to make it more clear you cant choose same color.
 
 1-20-22 1:32 pm: Steven, Derrick
-  Began trying socket features with UI2
+  Began trying socket features with UI2.
 
 1-21-21 3:04 am: Steven, Rayyan
-  Implemented going over other pieces
-  Added on to the possible path displayer to show where you can go over pieces as well
+  Implemented going over other pieces.
+  Added on to the possible path displayer to show where you can go over pieces as well.
+  Touched up on the menu to make it look better.
 
 1-22-21 8:07 pm: Rayyan, Derrick, Steven
   Added onto project for when the game ends. Brings user back to menu after a win. 
@@ -63,9 +70,10 @@
   
 1-24-21 9:00 pm : Derrick , Rayyan
   Added sound effects for player movement and menu noises.
-  Quitting noise causes terminal to crash
+  Quitting noise causes terminal to crash.
   
 1-24-22 10:47 am: Steven, Derrick, Rayyan
+  First practice run on school computers.
   Had trouble with ncurses and sound files on school computers.
   Fixed the ncurse errors with slight change to makefile to allow it to compile on linux.
 
@@ -82,7 +90,11 @@
   Edited README because added a space after ** by accident messing up the formatting
 
 1-26-22 10:34 am : Steven, Rayyan , Derrick
-  Made changes fix sound not working on linux. Still need to fix the quitting game sound breaking the game. When SSh to school computer sound does not work
+  Made changes fix sound not working on linux. Still need to fix the quitting game sound breaking the game. 
+  (Mr. DW is testing the code on school computers, so we do not need to worry about sound not being compatible with ssh). 
   
 1-26-22 12:41 pm : Steven
   Trying to fix error where quitting on linux breaks the terminal after playing the quit noise
+
+1-26-22 00:00 pm: Steven, Derrick, Rayyan
+  Final test run. Everything works
