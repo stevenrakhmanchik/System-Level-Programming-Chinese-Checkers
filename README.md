@@ -21,7 +21,7 @@ Our group has recreated the classic board game chinese checkers designed to be p
 0.  **Know how to play chinese checkers first:** If you dont know how to play watch this really short and simple video [click here please](https://www.youtube.com/watch?v=kVEAfbecmo0&ab_channel=TripleSGames).
 1.  **Game Setup:** Please make your terminal full screen. After, please compile and run our program. make -> make run.
 2. **Go for it!:** We designed our game to be very user friendly and intuitive, please use your arrow keys and the enter button to navigate through the game. You may now go play if you don't want to read further instruction, you got this, trust yourself. See 4. for further instruction if needed.
-3. **q to quit!:** When you are ready, press q to quit the program.
+3. **q to quit!:** When you are ready, press q to be brought to a menu to quit the program.
 
 4. **Detailed Instructions on how to navigate the game:** Feeling unconfident? No  worries, we got you with further instruction.
 
